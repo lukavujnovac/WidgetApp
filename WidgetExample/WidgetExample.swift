@@ -60,9 +60,10 @@ struct WidgetExampleEntryView : View {
                                startPoint: .topLeading,
                                endPoint: .bottomTrailing)
                 
-                Image("training")
+                Image("goal")
                     .resizable()
                     .scaledToFit()
+                    .padding()
                 
                 Image("logo")
                     .resizable()
